@@ -1,13 +1,12 @@
-// import { useState } from 'react'
+import React from 'react'
 import './App.css'
-import Login from './pages/Login'
+import { Pages } from './pages'
 
 function App() {
 
-
   return (
     <>
-      <Login />
+      <Pages.Authentication.Login />
     </>
   )
 }
